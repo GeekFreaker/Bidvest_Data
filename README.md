@@ -1,31 +1,58 @@
 
-![Bidest Data]('logo.png')
+![Bidest Data](logo.png)
 ---
-# Bidvest_Data  (php run.php --action="something" --id="value" ) :package:
+# :dizzy:Bidvest Data  
+
+###### ```$~ php run.php --action="something" --id="value"```
 ---
 
--[] Add    -- CREATE
+:package: :rocket:
 
--[] Scan   -- READ
+> - Add    <span style="font-weight:bold;">-- CREATE
+```php
+function add()
+```
 
--[] Edit   -- EDIT
+>- Scan   <span style="font-weight:bold">-- READ
+```php
+function scan_students()
+```
 
--[] Delete -- DELETE
+>- Edit   <span style="font-weight:bold;"> -- EDIT
+```php
+function edit()
+```
 
--[] Search -- SEARCH
 
-# Additional Extras
+>- Delete <span style="font-weight:bold"> --DELETE
+```php
+function delete()
+```
 
-- [] Help action
 
-- [] Default action
+>- Search <span style="font-weight:bold;"> -- SEARCH
+```php
+function search()
+```
 
-- [] Directory removal
 
-- [] short docblocks
 
-* ascii art.
 
-cli color & text-transformation.
+
+---
+### Additional Extras
+-----
+
+<span style="font-weight:bold">1.</span> Help action (```--action=help```)
+
+<span style="font-weight:bold">2.</span> Default action (```--action=```)
+
+<span style="font-weight:bold">3.</span> Directory removal ("/12/"--)
+
+<span style="font-weight:bold">4.</span> short docblocks ```/***/```
+
+<span style="font-weight:bold">5.</span> ASCII Art. ``` ###123###```
+
+<span style="font-weight:bold">6.</span> cli-color & text-transformation.
 
 :construction_worker:
